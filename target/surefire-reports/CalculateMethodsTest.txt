@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: CalculateMethodsTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in CalculateMethodsTest
+CalculateMethodsTest.testDivideByZero()  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.ArithmeticException> but was: <java.lang.NullPointerException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3082)
+	at CalculateMethodsTest.testDivideByZero(CalculateMethodsTest.java:22)
+Caused by: java.lang.NullPointerException
+	at CalculateMethodsTest.lambda$testDivideByZero$0(CalculateMethodsTest.java:22)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 16 more
+
+CalculateMethodsTest.testDivide()  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at CalculateMethodsTest.testDivide(CalculateMethodsTest.java:17)
+
